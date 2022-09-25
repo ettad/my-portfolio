@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://kit.fontawesome.com/11c61229eb.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -47,14 +48,15 @@
 
     </header>
 
-    <section id="hero" class="home">
+    <section id="hero" class="hero">
       
-        <div class="home">
-            <img src="./assets/images/image.png" alt="image of the webdeveloper">
-            <h2>HELLO WORLD</h2>
-            <br>
-            <p>Hi, My name is <span>Tadesse</span>, a creative Web Developer.</p>
-      </div>
+        <img src="./assets/images/image.png" alt="image of the webdeveloper">
+
+        <div class="hero-intro">
+            <h2>Hello World!</h2>
+            <p>My name is <span>Tadesse</span> </p>
+            <p>I'm a creative <span>Web Developer.</span></p>
+        </div>
 
     </section>
 
@@ -62,120 +64,154 @@
 
       <div id="about">
         
-            <h2>About</h2>
+            <h2 class="section-title">About Me</h2>
 
-            <img src="./assets/images/self-photo.jpg" alt="portrait image of the webdeveloper">
+            <p>
+                Hello World! <br><br>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, consectetur aperiam facere eos consequuntur eaque nostrum dolor nemo molestiae? Dolores id praesentium magnam, cupiditate quia modi quas aliquam inventore in. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla deserunt dolores dicta asperiores animi recusandae necessitatibus a quod, id, corporis quisquam dolorem cumque laboriosam molestias fuga quia nobis? Maxime,Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus asperiores perspiciatis odio ut impedit est quaerat voluptatibus, earum saepe officiis aperiam architecto fuga at culpa quo quis. Ratione, asperiores?</p>
+                
+                I am currently attending a bootcamp to become a webdeveloper at SMU (Southern Methodist University). My goal is to become a frontend webdeveloper in the near feature. I like backend but frontend interest me more due to the visual effect that is involved in front end developmnet. <br><br>
+
+                At the moment I am enjoying being a new dad. I have a 5 months old boy that keeps me busy aside from work and school. It's been a joy to have my son for both my wife and I. <br><br>
+
+                After succusefull complition of my coding bootcamp, I will be focussing on finding a job that will allow me to dispaly my skills that I have learned during the SMU bootcamp
+
+
+            </p>
+
 
       </div>
 
     </section>
 
-    <section>
+    <section id="skills" class="skills">
       <!-- skills -->
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-container">
+        <ul>
+            <li id="html">
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML </p>
+            </li>
+
+            <li id="css">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS</p>
+            </li>
+
+            <li id="js">
+                <i class="fa-brands fa-square-js"></i>
+                <p>JavaScript</p>
+            </li>
+
+            <li id="node">
+                <i class="fa-brands fa-node"></i>
+                <p>Node.js</p>
+            </li>
+
+        </ul>
+
+      </div>
     </section>
 
-    <section>
+    <section  id="projects" class="projects">
       <!-- projects -->
-    </section>
 
-    <section id="contact-me" class="contact">
+        <h2 class="section-title">Projects</h2>
         
-        <h2>Contact Me</h2>
+        <div class="card-container">
+  
+            <div class="card">
 
-        <div class="contact-form">
-            <form>
-                <label for="name"></label>
-                <input type="text" id="contact-name" placeholder="Name">
+                <img src="./assets/images/password_generator.JPG" alt="project image" style="width:100%">
 
-                <label for="email"></label>
-                <input type="email" id="email" placeholder="Email">
+                <a href="https://github.com/ettad/password-generator">Password Generator</a>
 
-                <label for="subject"></label>
-                <input type="text" id="subject" placeholder="Subject">
+            </div>
+  
+            <div class="card">
 
-                <label for="message"></label>
-                <textarea id="message" placeholder="Message"></textarea>
+                <img src="./assets/images/little_feeder.JPG" alt="project image" style="width:100%">
 
-                <button type="submit">Submit</button>
-            </form>
-            
+                <div class="container">
+                    <a href="https://github.com/rrrbbbsss/Little-Feeder">Little Feeder</a>
+                </div>
+
+            </div>
+  
+            <div class="card">
+
+                <img src="./assets/images/semantic_html.JPG" alt="project image" style="width:100%">
+
+                <div class="container">
+                    <a href="https://github.com/ettad/semantic-html">Semantic HTML</a>
+                </div>
+
+            </div>
+  
+            <div class="card">
+
+                <img src="./assets/images/crypto_tunnel.png" alt="project image" style="width:100%">
+
+                <div class="container">
+                    <a href="https://github.com/DavidKD5/crypto_tunnel">Crypto Tracker</a>
+                </div>
+                
+            </div>
+
         </div>
 
     </section>
 
-
-    <div class="container">
-
-
-      <div id="about">
-        <h2>About</h2>
-        <img src="./assets/images/self-photo.jpg" alt="Tadesse's Photo">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, consectetur aperiam facere eos consequuntur eaque nostrum dolor nemo molestiae? Dolores id praesentium magnam, cupiditate quia modi quas aliquam inventore in. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla deserunt dolores dicta asperiores animi recusandae necessitatibus a quod, id, corporis quisquam dolorem cumque laboriosam molestias fuga quia nobis? Maxime,Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus asperiores perspiciatis odio ut impedit est quaerat voluptatibus, earum saepe officiis aperiam architecto fuga at culpa quo quis. Ratione, asperiores?</p>
-      </div>
-
-      <div id="skills">
-        <h2>Skills</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi provident incidunt ab ad non perspiciatis dolor eum, suscipit hic cupiditate necessitatibus assumenda facere dignissimos deserunt dolorem at? Quae, incidunt reprehenderit!</p>
-      </div>
-
-      <div id="projects">
-
-        <h2>Projects</h2>
-
-        <div class="card-container">
-
-          <div class="card1">
-            <img src="./assets/images/self-photo.jpg" alt="project image" style="width:100%">
-            <div class="container1">
-              <h4><b>Password Generator</b></h4>
-              <p>Creates random pasword based on password requirement</p>
-            </div>
-          </div>
-  
-          <div class="card2">
-            <img src="./assets/images/self-photo.jpg" alt="project image" style="width:100%">
-            <div class="container1">
-              <h4><b>Weather App</b></h4>
-              <p>Architect & Engineer</p>
-            </div>
-          </div>
-  
-          <div class="card3">
-            <img src="./assets/images/self-photo.jpg" alt="project image" style="width:100%">
-            <div class="container3">
-              <h4><b>John Doe</b></h4>
-              <p>Architect & Engineer</p>
-            </div>
-          </div>
-  
-          <div class="card4">
-            <img src="./assets/images/self-photo.jpg" alt="project image" style="width:100%">
-            <div class="container4">
-              <h4><b>Crypto Tracker</b></h4>
-              <p>Allows you to track all your crypto in one place and keep up with your gain and losses</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
+    <footer id="contact-me" class="contact">
+        
+        <h2 class="section-title">Contact Me</h2>
 
     
-    <!-- creates a link to an Email, Linkedin, & GitHubwhich you can click on. -->
-    <footer id="contact-me">
-      <h2>Contact</h2>
-      <ul>
-        <li><a href="mailto:ettad2@gmail.com" >ettad2@gmail.com</a> <br /></li>
-        <li><a href="https://www.linkedin.com/in/tadesse-tilahun-9a8809a3" target="_blank" >LinkedIn</a></li>
-        <li><a href="https://github.com/ettad" target="_blank">GitHub </a></li>
-      </ul>
+        <div class="contact-container">
+    
+            <form class="contact-form">
+                <label for="name"></label>
+                <input type="text" id="contact-name" placeholder="Name">
+    
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="Email">
+    
+                <label for="subject"></label>
+                <input type="text" id="subject" placeholder="Subject">
+    
+                <label for="message"></label>
+                <textarea id="message" placeholder="Message"></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="icon-links">
+
+                <!-- github link -->
+                <a href="https://github.com/ettad" target="_blank">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+
+                <!-- linkedin link -->
+                <a href="https://www.linkedin.com/in/tadesse-tilahun-9a8809a3" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <!-- email link -->
+                <a href="mailto:ettad2@gmail.com" >
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
+            
+        </div>
+    
     </footer>
+    
 
 
 </body>
-
 
 </html>
